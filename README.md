@@ -115,4 +115,6 @@ Here's a [link to my video result](./project_video.mp4)
 
 #### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
-Here I'll talk about the approach I took, what techniques I used, what worked and why, where the pipeline might fail and how I might improve it if I were going to pursue this project further.  
+1. Current pipiline is way too slow because of trying to search all points again in each frame which is totally not efficient. 
+2. Also Pipeline would not work in case of scenario where we encounter a sharply curved lane which will most probably go beyond the mid horizontal point of the frame and the algo would fail right there.
+- To fix both this issue I think it would be great to have a dynamic source and destination points for applying perspective transformation and have a fall back case for lanes going beyond mid horizontal points.
