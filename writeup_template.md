@@ -19,7 +19,7 @@ The goals / steps of this project are the following:
 
 [image1]: ./output_images/2_Undistorted_Calibration.jpg "Undistorted"
 [image2]: ./output_images/4_Road_Transformed.jpg "Road Transformed"
-[image3]: ./output_images/5_Threshold Image.jpg "Binary Example"
+[image3]: ./output_images/5_Threshold_Image.jpg "Binary Example"
 [image4]: ./output_images/6_Unwraped_Image.jpg "Warp Example"
 [image5]: ./output_images/7_Fit_Visual.jpg "Fit Visual"
 [image6]: ./output_images/8_Output.jpg "Output"
